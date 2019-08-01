@@ -1,0 +1,422 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    font-family: "Open Sans", sans-serif;
+    background-color: black;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+header
+{
+    margin-top: 56px;
+    width: 100%;
+}
+
+header #company_name
+{
+    font-size: 24px;
+    display: inline-block;
+    margin-left: 12%;
+    padding: 17px 0px;
+}
+
+header #company_name a
+{
+    color: white;
+    font-weight: bold;
+}
+
+#navigation
+{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    margin-right: 8.7%;
+    margin-top: 8px;
+}
+
+#navigation a
+{
+    padding: 17px 0px;
+    margin-right: 17px;
+    color: white;
+}
+
+#navigation a:hover
+{
+    border-bottom: 3px solid #fcac45;
+}
+
+#welcome
+{
+    color: white;
+    width: 100%;
+    padding-bottom: 424px;
+}
+
+#welcome h1
+{
+    margin-top: 207px;
+    color: #999999;
+    text-align: center;
+}
+
+#welcome h1 span
+{
+    color: #fcac45;
+    font-weight: bold;
+}
+
+#welcome p
+{
+    text-align: center;
+}
+
+#welcome p span
+{
+    font-weight: bold;
+}
+
+#about
+{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    padding: 104px 231px 102px 180px;
+}
+
+#about div
+{
+    margin-left: 175px;
+    width: 408px;
+}
+
+#about div h1
+{
+    padding: 25px 0px;
+    border-bottom: 4px solid #fcac45;
+}
+
+#about div p
+{
+    margin-top: 32px;
+    color: #6c6c6c;
+}
+
+#about div ul
+{
+    list-style-position: inside;
+    list-style-image: url("img/list-style-image.png");
+    margin-top: 44px;
+}
+
+#about div ul li
+{
+    margin-bottom: 20px;
+    color: #5a5a5a;
+}
+
+#about div ul li span
+{
+    font-weight: bold;
+}
+
+#our_team
+{
+    padding: 95px 187px 162px 187px;
+}
+
+#our_team h1
+{
+    color: white;
+    text-align: center;
+    border-bottom: 4px solid #fcac45;
+    margin: 0px auto;
+    padding-bottom: 32px;
+    width: 230px;
+}
+
+#people
+{
+    margin-top: 107px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.human
+{
+    width: 248px;
+}
+
+.avatar
+{
+    height: 128px;
+    width: 128px;
+    border-radius: 128px;
+    background-color: #d7d7d7;
+    margin: 0px auto;
+}
+
+.first_name_and_last_name
+{
+    margin-top: 22px;
+    text-align: center;
+}
+
+.position
+{
+    margin-top: 7px;
+    text-align: center;
+}
+
+.description
+{
+    margin-top: 35px;
+    text-align: center;
+}
+
+#our_services
+{
+    background-color: white;
+    padding: 100px 185px 100px 185px;
+}
+
+#our_services h1
+{
+    color: black;
+    text-align: center;
+    border-bottom: 4px solid #fcac45;
+    margin: 0px auto;
+    padding-bottom: 32px;
+    width: 245px;
+}
+
+#our_services > p
+{
+    text-align: center;
+    margin-top: 56px;
+    color: #6c6c6c;
+}
+
+#services
+{
+    margin-top: 105px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service
+{
+    width: 245px;
+}
+
+.service img
+{
+    display: block;
+    margin: 0px auto;
+}
+
+.service h2
+{
+    margin-top: 29px;
+    text-align: center;
+}
+
+.service p
+{
+    margin-top: 21px;
+    text-align: center;
+}
+
+#our_clients
+{
+    padding: 100px 0px 211px;
+}
+
+#our_clients h1
+{
+    text-align: center;
+    width: 380px;
+    margin: 0px auto;
+    padding-bottom: 32px;
+    border-bottom: 4px solid #fcac45;
+    color: white;
+}
+
+#clients
+{
+    margin: 0px auto;
+    margin-top: 112px;
+    display: flex;
+    justify-content: center;
+}
+
+#our_works
+{
+    background-color: white;
+    padding: 100px 180px;
+}
+
+#our_works h1
+{
+    text-align: center;
+    width: 450px;
+    margin: 0px auto;
+    padding-bottom: 32px;
+    border-bottom: 4px solid #fcac45;
+}
+
+#our_works p
+{
+    margin-top: 57px;
+    text-align: center;
+    color: #6c6c6c;
+}
+
+#our_works_images
+{
+    margin-top: 174px;
+}
+
+.line
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 31px;
+}
+
+#testimonials
+{
+    padding: 100px 285px 175px 285px;
+    color: white;
+}
+
+#testimonials h1
+{
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #fcac45;
+    width: 500px;
+    margin: 0px auto;
+}
+
+#testimonial
+{
+    text-align: center;
+    margin-top: 119px;
+    text-transform: uppercase;
+}
+
+#testimonials #name
+{
+    text-align: center;
+    color: #b2b2b2;
+    margin-top: 48px;
+}
+
+#testimonials #name span
+{
+    font-weight: bold;
+}
+
+#contact_us
+{
+    background-color: white;
+    
+    padding: 100px 285px 175px 285px;
+}
+
+#contact_us h1
+{
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #fcac45;
+    width: 220px;
+    margin: 0px auto;
+}
+
+#contact_us > p
+{
+    margin-top: 57px;
+    text-align: center;
+    color: #6c6c6c;
+}
+
+#contact_us form
+{
+    margin-top: 100px;
+}
+
+#name_and_email p
+{
+    display: inline;
+}
+
+#one, #two
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#form_name, #form_email
+{
+    width: 49%;
+    height: 40px;
+    border: 1px solid #999999;
+}
+
+#two
+{
+    float: right;
+}
+
+#contact_us textarea
+{
+    height: 167px;
+    width: 100%;
+    border: 1px solid #999999;
+    resize: none;
+}
+
+#form_send
+{
+    float: right;
+    padding: 14px 62px;
+    border: 0px;
+    background-color: #fcac45;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 32px;
+}
+
+#footer
+{
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#contacts img
+{
+    margin-left: 5px;
+}
+
+
+
+@media screen and (max-width: 914px)
+{
+
+}
