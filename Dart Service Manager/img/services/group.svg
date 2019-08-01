@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 20 12">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 20px;
+        fill: #061e37;
+        text-anchor: middle;
+        font-family: "Material Icons";
+      }
+    </style>
+  </defs>
+  <text id="group" class="cls-1" x="10" y="16"><tspan x="10">group</tspan></text>
+</svg>

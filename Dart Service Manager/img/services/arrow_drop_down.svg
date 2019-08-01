@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 25px;
+        fill: #061e37;
+        font-family: "Material Icons";
+      }
+    </style>
+  </defs>
+  <text id="arrow_drop_down" class="cls-1" x="-7" y="15">arrow_drop_down</text>
+</svg>

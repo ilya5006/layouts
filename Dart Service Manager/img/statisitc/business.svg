@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 30px;
+        fill: #80d8ff;
+        text-anchor: middle;
+        font-family: "Material Icons";
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="30" cy="30" r="30"/>
+  <text id="business" class="cls-2" x="30" y="45"><tspan x="30">business</tspan></text>
+</svg>

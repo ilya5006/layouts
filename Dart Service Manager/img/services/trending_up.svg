@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="11" viewBox="0 0 18 11">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 20px;
+        fill: #061e37;
+        text-anchor: middle;
+        font-family: "Material Icons";
+      }
+    </style>
+  </defs>
+  <text id="trending_up" class="cls-1" x="9" y="16"><tspan x="9">trending_up</tspan></text>
+</svg>

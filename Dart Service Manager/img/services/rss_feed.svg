@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 20px;
+        fill: #061e37;
+        text-anchor: middle;
+        font-family: "Material Icons";
+      }
+    </style>
+  </defs>
+  <text id="rss_feed" class="cls-1" x="7" y="17"><tspan x="7">rss_feed</tspan></text>
+</svg>
